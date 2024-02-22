@@ -1,9 +1,7 @@
 #!/Library/Frameworks/Python.framework/Versions/3.12/bin/python3
 
 
-
 import os
-
 
 os.environ["FAV_ANIMAL"] = input('What is your favorite animal? ')
 
