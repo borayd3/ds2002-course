@@ -15,5 +15,5 @@ read -p "8. Please give me a verb: " V2
 
 echo "On a $ADJ1, hot June afternoon, $N1 was going on a hike when they unintentionally $V1 down a hill. 
 $N1 oriented themselves only to realize that they were covered in $ADJ2 bugs. The bugs were $AV1 crawling all over!
-To escape, $N1 $V2 until they encountered a $N2. The $N2 guided $N1 by $AV2 whispering in their ear 
-until $N1 was able to make it back up to the hike trail."
+To escape, $N1 was able to $V2 until they encountered a $N2. The $N2 guided $N1 by $AV2 whispering in their ear 
+until $N1 was able to make it back to the hiking trail."
