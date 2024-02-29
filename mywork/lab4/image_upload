@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+read -p "Insert image URL: " URL1
+read -p "Insert file name for image: " NAME1
+curl $URL1 > $NAME1.png
+aws s3 cp $NAME1.png s3://ds2002-ngx3fy/
+aws s3 presign --expires-in 604800 s3://ds2002-ngx3fy/$NAME1.png
